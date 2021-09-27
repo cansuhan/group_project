@@ -1,0 +1,97 @@
+/* font from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+body {
+    background-image: url("images/backgrounds/backgroundcity.JPG");
+    background-size: contain, cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+/* centre the text */
+.centretext {
+    text-align: center;
+}
+
+.header{
+    margin: 0px;
+    height: 100px;
+}
+
+/* navbar */
+#navbar {
+    background-color: rgba(7, 7, 7, 0.477);
+    height: 6vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(190, 190, 190);
+    text-shadow: 1px 1px 1px rgba(11, 11, 11, 0.888), 
+    1px 1px 2px rgba(0, 7, 7, 0.27);
+}
+
+#navbar a:hover{
+    color: turquoise;
+}
+
+/* header colour and format  */
+h1 {
+    padding: 5px;
+    color: aliceblue;
+    font-size: 30px;
+    font-style: bold;
+    text-shadow: 1px 1px 1px rgba(11, 11, 11, 0.444), 
+               1px 1px 3px rgba(0, 0, 0, 0.444);  
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+.desc {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+  }
+
+
+/* paragraph colour and format */
+p {
+    margin: 5px;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+/* text background */
+.backtoblack {
+    background-color: rgba(7, 7, 7, 0.400);
+    display: block;
+    padding: 7px;
+    border: 1px solid rgba(42, 42, 42, 0.242);
+    margin: auto;
+    width:  70%;
+    border-radius: 7%;
+}
+
+/* footer format */
+footer {
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+}
